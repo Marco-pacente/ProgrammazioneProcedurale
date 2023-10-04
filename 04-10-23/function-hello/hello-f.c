@@ -1,9 +1,9 @@
 #include <stdio.h>
-void myPrintHello(){
+void myPrintHello(){ //definizione funzione di tipo void (senza valore di ritorno)
 	printf("Hello\n");
-	return;
+	return; //ritorno di valore nullo
 }
 int main(){
-	myPrintHello();
+	myPrintHello(); //invocazione funzione
 	return 0;
 }
