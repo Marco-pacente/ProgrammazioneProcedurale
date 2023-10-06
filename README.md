@@ -1,3 +1,3 @@
 # ProgrammazioneProcedurale
-Esercizi del corso di programmazione procedurale
-Qui caricherò tutti gli esercizi che faccio.
+Esercizi del corso di programmazione procedurale.
+Criteri di ordinamento opinabili (cry about it)
