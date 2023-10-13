@@ -34,6 +34,7 @@ void stampaGiorno(enum giorni_settimana giorno){
         printf("what");
         break;
     }
+    return;
 }
 
 int main(){
@@ -44,4 +45,5 @@ int main(){
     printf("\ndomani sarà ");
     stampaGiorno(giorno_dopo(oggi));
     printf("\n");
+    return 0;
 }
