@@ -8,11 +8,12 @@ int main(){
     printf("stampo 0x12: %d\n", c);
 
     int d = 512U;//d è unsigned;
-    int f = 2.5E10; //2.5 moltiplicato per 10 alla decima
+    float f = 2.5E10; //2.5 moltiplicato per 10 alla decima
     float v = 5.6f; //5.6 è float 
     float l = 5.6; // ora invece è double;
 
-    char apice = '\'';
-    char backslash = '\\';
+    char apice = '\''; //le costanti letterali carattere hanno tipo int.
+    char backslash = '\\'; 
+    printf("\a");
 
 }
