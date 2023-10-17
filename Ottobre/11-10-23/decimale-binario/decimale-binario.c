@@ -5,16 +5,13 @@ int main(){
     printf("Enter an integer decimal number:");
     scanf("%d", &number);
     printf("Binary (inverted): ");
-    for(int i = 7; i >= 0; i--)
+    for(int i = 0; i < 7; i++)
     {
         binNumber[i] =  number%2;
         printf("%d", number%2);
         number = number/2;
     }
     printf("\n");
-    for (int i = 0; i < 8; i++)
-    {
-        printf("%c", binNumber[i]); //vabbè vaffanculo c ci riprovo dopo
-    }
-    
+    printf("%s", binNumber);
+        
 }
