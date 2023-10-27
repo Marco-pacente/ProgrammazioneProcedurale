@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a = 3;
-    int b = 0;
-    int c;
+    int a = 0;
+    int b;
 
-    c = (a > b ? (a + 1) : (a - 1));
+    b = a++ ? a++ : (a+=2);
 
-    printf("c = %d\n", c);
+    printf("b = %d\n", b);
 }
