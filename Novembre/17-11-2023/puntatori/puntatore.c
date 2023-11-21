@@ -8,7 +8,7 @@ int main(){
     printf("Stampo il valore della variabile puntata da p: %d\n", *p);
 
     printf("Stampo p: %p\n", p);
-    printf("Stampo indirizzo di a: %p\n", &a);
-    printf("Stampo indirizzo di b: %p\n", &b);
-    printf("Stampo indirizzo di p: %p\n", &p);
+    printf("Stampo indirizzo di a: %llu\n", (unsigned long long) &a);
+    printf("Stampo indirizzo di b: %llu\n", (unsigned long long) &b);
+    printf("Stampo indirizzo di p: %llu\n", (unsigned long long) &p);
 }
