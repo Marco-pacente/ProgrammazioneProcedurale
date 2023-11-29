@@ -1,12 +1,4 @@
 #include <stdio.h>
-struct Song
-{
-    char title[64];
-    char artist[32];
-    char composer[32];
-    short duration;
-    struct Date published;
-};
 
 struct Date
 {
@@ -20,4 +12,6 @@ int main(){
     ieri.day = 27;
     ieri.month = 11;
     ieri.year = 2023;
+
+    printf("Ieri era il %d/%d/%d\n", ieri.day, ieri.month, ieri.year);
 }
