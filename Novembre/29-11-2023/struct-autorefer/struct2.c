@@ -3,11 +3,18 @@
 #include <string.h>
 
 
+typedef struct date
+{
+    short int day, month, year;
+} Date;
+
+
 typedef struct Song
 {
     char title[32];
     char artist[32];
     short duration;
+    Date release;
 } song_t;
 
 
@@ -35,4 +42,13 @@ int main(){
     printSong(fuoridaltunnel);
     printf("%s\n", pCanzone -> title); //sono la steessa cosa
     printf("%s\n", (*pCanzone).title); //però così è più disordinato
+
+    song_t exuvia = {
+        "Exuvia",
+        "Caparezza",
+        180,
+        {1, 3, 2021}
+    };
+
+    printf("%s\n", exuvia.title);
 }
